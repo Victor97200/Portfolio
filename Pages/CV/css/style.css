@@ -1,0 +1,84 @@
+
+.pgauche{
+	background-color:rgb(100, 200, 100);
+
+	position: absolute;
+
+	width: 14em;
+	height: 50em;
+}
+
+img{
+	width: 8em;
+	height: 8em;
+	border-radius: 10em;
+}
+
+.logo{
+	margin-left: 1em;
+	height: 1em;
+	width: 1em;
+}
+
+figcaption{
+	font-size:0.8em;
+	margin-left:2.8em;
+}
+
+.pdroite{
+	position: absolute;
+	left: 15em;
+
+	width: 24em;
+	height: 50em;
+}
+
+h1{
+	margin-left: 0.8em;
+	font-size:1.5em;
+	color:darkgreen;
+}
+
+h2{
+	color:darkgreen;
+	margin-left: 1em;
+	font-size:1.15em;
+}
+
+.barre{
+	margin-left: 1em;
+	border:0.1em solid rgb(100, 200, 100) ;
+	border-radius: 1em;
+  height:0.1em;
+	width:23em;
+	background-color:rgb(100, 200, 100);
+}
+
+li{
+	margin-left: 1em;
+	font-weight: bold;
+	color:rgb(20, 25, 25);
+}
+
+p{
+	margin-left: 1em;
+	color:rgb(20, 25, 25);
+}
+
+.retour{
+	margin-left: 2.2em;
+}
+
+.soustitre{
+	color:darkslategray;
+	font-style: italic;
+
+}
+.darkgreen{
+	color:darkgreen;
+	font-weight: lighter;
+}
+
+.nom{
+	color:darkgreen;
+}
