@@ -45,6 +45,12 @@ h2{
 	font-size:1.15em;
 }
 
+h3{
+	color:darkgreen;
+	margin-left: 1.2em;
+	font-size:1.2em;
+}
+
 .barre{
 	margin-left: 1em;
 	border:0.1em solid rgb(100, 200, 100) ;
