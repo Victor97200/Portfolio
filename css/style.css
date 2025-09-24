@@ -1,94 +1,86 @@
 .pgauche {
-    background-color: rgb(100, 200, 100);
-    position: absolute;
-    width: 14em;
-    height: auto; /* auto plutôt que fixe → s'adapte au contenu */
-    padding-bottom: 2em; /* un peu d'air en bas */
+  background-color: rgb(100, 200, 100);
+  position: absolute;
+  width: 14em;
+  height: 75em;
 }
 
-/* Image profil */
-.pgauche img {
-    width: 8em;
-    height: 8em;
-    border-radius: 50%; /* cercle parfait */
-    display: block;
-    margin: 1em auto; /* centrer */
+img {
+  width: 8em;
+  height: 8em;
+  border-radius: 10em;
 }
 
-/* Logo des contacts */
 .logo {
-    margin-left: 1em;
-    height: 1em;
-    width: 1em;
-    vertical-align: middle;
+  margin-left: 1em;
+  height: 1em;
+  width: 1em;
 }
 
 figcaption {
-    font-size: 0.9em;
-    text-align: center;
-    margin-top: 0.5em;
-    font-weight: bold;
-    color: darkslategray;
-    font-style: italic;
+  font-size: 0.8em;
+  margin-left: 2.8em;
 }
 
-/* Colonne droite */
 .pdroite {
-    position: absolute;
-    left: 16em; /* petit ajustement pour respirer */
-    width: 45em;
-    max-width: calc(100% - 16em);
+  position: absolute;
+  left: 15em;
+  width: 24em;
+  height: 50em;
 }
 
-/* Titres principaux */
 h1 {
-    margin-left: 0.8em;
-    font-size: 1.6em;
-    color: darkgreen;
+  margin-left: 0.8em;
+  font-size: 1.5em;
+  color: darkgreen;
 }
 
 h2 {
-    color: darkgreen;
-    margin: 1em 0 0.5em 1em;
-    font-size: 1.2em;
-    border-bottom: 2px solid darkgreen; /* séparation nette */
-    padding-bottom: 0.2em;
+  color: darkgreen;
+  margin-left: 1em;
+  font-size: 1.15em;
 }
 
-/* Liste générale */
+h3 {
+  color: darkgreen;
+  margin-left: 1.2em;
+  font-size: 1.2em;
+}
+
+.barre {
+  margin-left: 1em;
+  border: 0.1em solid rgb(100, 200, 100);
+  border-radius: 1em;
+  height: 0.1em;
+  width: 23em;
+  background-color: rgb(100, 200, 100);
+}
+
 li {
-    margin-left: 1em;
-    font-weight: bold;
-    color: rgb(20, 25, 25);
-    margin-bottom: 0.4em;
+  margin-left: 1em;
+  font-weight: bold;
+  color: rgb(20, 25, 25);
 }
 
-/* Texte */
 p {
-    margin-left: 1em;
-    color: rgb(20, 25, 25);
+  margin-left: 1em;
+  color: rgb(20, 25, 25);
 }
 
-/* Retour à la ligne pour les adresses */
 .retour {
-    display: block;
-    margin-left: 2.2em;
+  margin-left: 2.2em;
 }
 
-/* Langues → même style que compétences */
-.pgauche h2 {
-    font-size: 1.1em;
-    margin-top: 1.5em;
+.soustitre {
+  color: darkslategray;
+  font-style: italic;
 }
 
-.pgauche ul {
-    list-style: none;
-    padding-left: 0.5em;
-    margin: 0;
+.darkgreen {
+  color: darkgreen;
+  font-weight: lighter;
 }
 
-.pgauche ul li {
-    color: darkgreen;
-    font-weight: normal;
-    font-size: 0.95em;
+.nom {
+  color: darkgreen;
 }
